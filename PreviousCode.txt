@@ -1,0 +1,115 @@
+/* Single Dimesion Array
+
+            Console.WriteLine("Creating a blank array size 10");
+            singleDimensionArray sda = new singleDimensionArray(10);
+            
+            Console.WriteLine("Printing the Array...");
+            sda.traverseArray();
+
+            Console.WriteLine("Inserting few values in the Array...");
+            sda.insert(0,0);
+            sda.insert(1,10);
+            sda.insert(2,20);
+            sda.insert(3,30);
+            sda.insert(4,40);
+            sda.insert(5,50);
+            sda.insert(6,60);
+            sda.insert(7,70);
+            sda.insert(8,80);
+            sda.insert(9,90);
+            
+            Console.WriteLine("Traversing the Array....");
+            sda.traverseArray();
+
+            Console.WriteLine("Accessing the cell number 1");
+            sda.accessingCell(1);
+
+            Console.WriteLine("Accessing the cell number 5");
+            sda.accessingCell(5);
+
+
+            Console.WriteLine("Searching value 30 in the Array");
+            sda.searchValueInArray(30);
+               
+            Console.WriteLine("Deleting the cell 3 of the Array");
+            sda.deleteValueFromArray(3);
+
+            Console.WriteLine("After Deleting the cell value from Array");
+            sda.traverseArray();
+
+            Console.WriteLine("Deleting the Array...");
+            sda.deleteArray();
+
+            Console.WriteLine("After Deleting the Array..");
+            sda.traverseArray();
+            */
+                
+             /* Two Dimensional Array
+             
+             Console.WriteLine("Creating a blank array of size 5x5");
+             twoDimensionArray tda = new twoDimensionArray(5,5);
+             tda.traverseArray();
+
+             tda.insertTheValueInTheArray(0,2,1000001);
+             tda.traverseArray();
+
+             tda.insertTheValueInTheArray(0,3,1000001);
+             tda.traverseArray();
+
+             tda.accessingTheCell(0,1);
+             tda.accessingTheCell(0,3);
+             tda.accessingTheCell(1,3);
+
+             tda.deleteCellValueFromArray(0,2);
+             tda.traverseArray();
+              
+             tda.deleteArray();
+             */
+
+             /* Single Linked List
+           singleLinkedList list = new singleLinkedList(); 
+           list.createSingleLinkedList(5);
+           list.traverseLinkedList();
+
+           list.insertInLinkedList(10,1);
+           list.traverseLinkedList();
+
+           list.insertInLinkedList(20,2);
+           list.traverseLinkedList();
+
+           list.insertInLinkedList(30,3);
+           list.traverseLinkedList();
+
+           list.insertInLinkedList(40,1);
+           list.traverseLinkedList();
+
+           Console.WriteLine("Searching for the value 40...");
+           list.searchNode(40);
+
+           Console.WriteLine("Searching for the value 50...");
+           list.searchNode(50);
+
+           Console.WriteLine("Deleting the node at location 0...");
+           Console.WriteLine("Before deleting...");
+           list.traverseLinkedList();
+           list.deletionOfNode(0);
+           Console.WriteLine("After deleting the node..");
+           list.traverseLinkedList();
+
+           Console.WriteLine("Deleting the node at location 3...");
+           Console.WriteLine("Before deleting...");
+           list.traverseLinkedList();
+           list.deletionOfNode(3);
+           Console.WriteLine("After deleting the node..");
+           list.traverseLinkedList();
+
+           Console.WriteLine("Deleting the node at location 5...");
+           Console.WriteLine("Before deleting...");
+           list.traverseLinkedList();
+           list.deletionOfNode(5);
+           Console.WriteLine("After deleting the node..");
+           list.traverseLinkedList();
+
+           list.DeleteLinkedList();
+           list.traverseLinkedList();
+           */
