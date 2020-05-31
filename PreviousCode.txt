@@ -1,4 +1,4 @@
-/* Single Dimesion Array
+            /* Single Dimesion Array
 
             Console.WriteLine("Creating a blank array size 10");
             singleDimensionArray sda = new singleDimensionArray(10);
@@ -44,7 +44,7 @@
             sda.traverseArray();
             */
                 
-             /* Two Dimensional Array
+           /* Two Dimensional Array
              
              Console.WriteLine("Creating a blank array of size 5x5");
              twoDimensionArray tda = new twoDimensionArray(5,5);
@@ -64,9 +64,10 @@
              tda.traverseArray();
               
              tda.deleteArray();
-             */
+             
+            */
 
-             /* Single Linked List
+           /* Single Linked List
            singleLinkedList list = new singleLinkedList(); 
            list.createSingleLinkedList(5);
            list.traverseLinkedList();
@@ -113,3 +114,54 @@
            list.DeleteLinkedList();
            list.traverseLinkedList();
            */
+
+           /* Double LinkedList
+            doubleLinkedList dll = new doubleLinkedList();
+            dll.createDoubleLinkedList(5);
+            dll.traverseLinkedList();
+
+            dll.insertLinkedList(10,1);
+            dll.traverseLinkedList();
+
+            dll.insertLinkedList(20,2);
+            dll.traverseLinkedList();
+
+            dll.insertLinkedList(30,3);
+            dll.traverseLinkedList();
+             
+            dll.insertLinkedList(40,4);
+            dll.traverseLinkedList();
+
+            dll.insertLinkedList(50,5);
+            dll.traverseLinkedList();
+
+            Console.WriteLine("\n\nSearching the node having value 40: ");
+            dll.searchNode(40);
+
+            Console.WriteLine("\n\nSearching the node having value 40: ");
+            dll.searchNode(50);
+
+            Console.WriteLine("\n\nPrinting the List in Order");
+            dll.traverseLinkedList();
+            
+            Console.WriteLine("\n\nPrinting the List in Reverse Order");
+            dll.traverseLinkedListInReverseOrder();
+
+            Console.WriteLine("\n\nDeleting the node having location=2");
+            Console.WriteLine("List Before Deletion:");
+            dll.traverseLinkedList();
+            dll.deleteNodeInLinkedList(2);
+            Console.WriteLine("\n\nList after deleting the Node");
+            dll.traverseLinkedList();
+
+            Console.WriteLine("\n\nDeleting the node having location=2");
+            Console.WriteLine("List Before Deletion:");
+            dll.traverseLinkedList();
+            dll.deleteNodeInLinkedList(3);
+            Console.WriteLine("\n\nList after deleting the Node");
+            dll.traverseLinkedList();
+            
+
+            dll.deleteLinkedList();
+            dll.traverseLinkedList();
+            */
