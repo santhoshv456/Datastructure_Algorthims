@@ -165,3 +165,40 @@
             dll.deleteLinkedList();
             dll.traverseLinkedList();
             */
+
+             /* singleCircularlist
+              singleCircularLinkedList sll = new singleCircularLinkedList();
+              sll.createSingleCircularLinkedList(5);
+              sll.insertNodeInSingularLinkedList(1,10);
+              sll.insertNodeInSingularLinkedList(2,20);
+              sll.insertNodeInSingularLinkedList(3,30);
+              sll.insertNodeInSingularLinkedList(4,40);
+
+              Console.WriteLine("\nTraversing the linked list");
+              sll.traverseLinkedList();
+              
+              sll.insertNodeInSingularLinkedList(5,50);
+              sll.traverseLinkedList();
+
+              sll.insertNodeInSingularLinkedList(0,5);
+              sll.traverseLinkedList();
+
+              sll.printHeadUsingTail();
+
+              Console.WriteLine("\nSearching the value 40");
+              sll.searchNode(40);
+
+              Console.WriteLine("\nSearching the value 50");
+              sll.searchNode(50);
+
+              Console.WriteLine("\nDeleting the node at location 3");
+              sll.deleteNode(3);
+              sll.traverseLinkedList();
+
+              Console.WriteLine("\nDeleting the node at location 5");
+              sll.deleteNode(5);
+              sll.traverseLinkedList();
+
+              sll.deleteLinkedList();
+              sll.traverseLinkedList();
+              */
