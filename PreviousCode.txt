@@ -202,3 +202,35 @@
               sll.deleteLinkedList();
               sll.traverseLinkedList();
               */
+
+            /*
+            doubleCircularLinkedList dcl = new doubleCircularLinkedList();
+            dcl.createDoubleLinkedList(5);
+            dcl.insertDoubleLinkedList(1,10);
+            dcl.insertDoubleLinkedList(2,15);
+            dcl.insertDoubleLinkedList(3,20);
+            dcl.insertDoubleLinkedList(4,25);
+
+            Console.WriteLine("List Now..");
+            dcl.traverseLinkedList();
+
+            dcl.traverseLinkedListFromTail();
+            dcl.printHeadUsingTail();
+
+            Console.WriteLine("\nSearching the node having value 40:");
+            dcl.searchValue(25);
+
+            Console.WriteLine("\nSearching the node having value 200:");
+            dcl.searchValue(200);
+
+            Console.WriteLine("\nDeleting the value from location 0:");
+            dcl.deleteNodeInLinkedList(0);
+            dcl.traverseLinkedList();
+
+            Console.WriteLine("\nDeleting the value from 3:");
+            dcl.deleteNodeInLinkedList(3);
+            dcl.traverseLinkedList();
+
+            dcl.deleteLinkedList();
+            dcl.traverseLinkedList();
+            */
