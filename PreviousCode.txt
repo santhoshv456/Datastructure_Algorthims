@@ -234,3 +234,26 @@
             dcl.deleteLinkedList();
             dcl.traverseLinkedList();
             */
+
+             /* stack
+            Console.WriteLine("Creating a stack of size 5");  
+            stackbyArray stack = new stackbyArray(5);
+            
+            Console.WriteLine("Pushing 6 values into the stack..");
+            for(int i=0; i<5;i++)
+            {
+               stack.push(i*10);
+            }
+            
+            Console.WriteLine("Peek value from stack..");
+            stack.peek();
+
+            Console.WriteLine("Poping value from the stack");
+            for(int i=0;i<5;i++)
+            {
+                stack.pop();
+            }
+
+            Console.WriteLine("Deleting the Stack....");
+            stack.deleteStack();
+            */
