@@ -257,3 +257,27 @@
             Console.WriteLine("Deleting the Stack....");
             stack.deleteStack();
             */
+
+             /* LinkedList by Stack
+            stackByLinkedList sll = new stackByLinkedList();
+
+            Console.WriteLine("Pushing 10 values into the stack..");
+            for(int i=0; i<10 ; i++)
+            {
+                sll.push(i*10);
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("Peeking value");
+            Console.WriteLine(sll.peek());
+            Console.WriteLine();
+
+            Console.WriteLine("Poping the values from stack");
+            for(int i=0;i<10;i++)
+            {
+                Console.WriteLine(sll.pop());
+            }
+
+            Console.WriteLine();
+            */
