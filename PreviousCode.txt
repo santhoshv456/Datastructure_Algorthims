@@ -281,3 +281,26 @@
 
             Console.WriteLine();
             */
+
+             /*
+            Console.WriteLine("Creating an empty Queue");
+            QueueByArray qbyA = new QueueByArray(10);
+
+            Console.WriteLine("Enqueing 6 values in the queue");
+            for(int i=1;i<6;i++)
+            {
+                qbyA.enqueue(i*10);
+            }
+
+            Console.WriteLine("Peek value from Queue");
+            qbyA.peekQueue();
+
+            Console.WriteLine("Dequeue 6 values from Queue");
+            for(int i=1;i<6;i++)
+            {
+                qbyA.Dequeue();
+            }
+
+            Console.WriteLine("Deleting entire Queue");
+            qbyA.deleteQueue();
+            */
