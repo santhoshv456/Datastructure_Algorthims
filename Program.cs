@@ -9,10 +9,7 @@ using DataStructure_Algo.Queue;
 namespace DataStructure_Algo
 {
     class Program
-    {
-        static void Main(string[] args)
-        { 
-           
-        } 
+    {  
+       
     }
 }

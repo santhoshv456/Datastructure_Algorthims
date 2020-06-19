@@ -304,3 +304,29 @@
             Console.WriteLine("Deleting entire Queue");
             qbyA.deleteQueue();
             */
+
+        /*
+        static void Main(string[] args)
+        { 
+            Console.WriteLine("Creating a queue");
+            QueueByLinkedList qL = new QueueByLinkedList();
+
+            Console.WriteLine("Enqueing 6 values into the queue");
+            for(int i=1;i<=6;i++)
+            {
+                qL.enque(i*10);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("Peeking value");
+            Console.WriteLine(qL.peek());
+            Console.WriteLine();
+
+            Console.WriteLine("Dequeing 6 values into queue");
+            for(int i=0;i<6;i++)
+            {
+                Console.WriteLine(qL.dequeue());
+            }
+        } 
+        
+        */
