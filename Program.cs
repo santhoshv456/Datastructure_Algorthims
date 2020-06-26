@@ -10,6 +10,9 @@ namespace DataStructure_Algo
 {
     class Program
     {  
-       
+        public static void Main(string[] args)
+        { 
+           
+        }
     }
 }
