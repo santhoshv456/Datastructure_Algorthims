@@ -347,3 +347,38 @@
            cBQA.printArray();
            cBQA.deleteQueue();
            */
+
+            /*
+            Console.WriteLine("Created a Blank Binary Tree to Store Binary Tree");
+            BinaryTreeByArray bTA = new BinaryTreeByArray(10);
+            
+            Console.WriteLine("Inserting 10 values in the Tree...");
+            for(int i=1;i<=10;i++)
+            {
+                bTA.insert(i*10);
+            }
+            
+            Console.WriteLine("\nLevel-Order Traversal");
+            bTA.levelOrderTraversal();
+
+            Console.WriteLine("\nPre-Order Traversal");
+            bTA.preOrderTraversal(1);
+
+            Console.WriteLine("\nPost-Order Traversal");
+            bTA.postOrderTraversal(1);
+
+            Console.WriteLine("\nIn-Order Traversal");
+            bTA.inOrderTraversal(1);
+
+            Console.WriteLine("\nSearching value 500 in the tree");
+            bTA.search(50);
+
+            Console.WriteLine("\nDeleting node 40 from the tree..");
+            bTA.delete(40);
+
+            Console.WriteLine("\nLevel-Order Traversal");
+            bTA.levelOrderTraversal();
+
+            Console.WriteLine("\nDeleting the entire Tree");
+            bTA.deleteTree();
+            */
